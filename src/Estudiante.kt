@@ -1,4 +1,11 @@
-class Estudiante(nombre: String, edad: Int, id: String, val curso: String, val calificacionPromedio: Double) : Persona(nombre, edad, id) {
+class Estudiante(
+    nombre: String,
+    edad: Int,
+    id: String,
+    val curso: String,
+    val calificacionPromedio: Double
+) : Persona(nombre, edad, id) {
+
     override fun mostrarRol() {
         println("Rol: Estudiante")
     }
